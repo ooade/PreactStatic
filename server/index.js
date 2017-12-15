@@ -24,7 +24,7 @@ const AppShell = (html, state) => `
 		</head>
 		<body>
 			<div id="root">${html}</div>
-			<script>window.__STATE__=${JSON.stringify(state)}</script>
+			<script>window.__STATE__=${JSON.stringify(state).replace(/<|>/g, '')}</script>
 			<script>${JS}</script>
 		</body>
 	</html>
