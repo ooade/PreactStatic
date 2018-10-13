@@ -19,7 +19,7 @@
 		"express": "^4.16.2",
 		"preact": "^8.2.7",
 		"preact-redux": "^2.0.3",
-		"preact-render-to-string": "^3.7.0",
+		"preact-render-to-string": "^3.7.2",
 		"preact-router": "^2.6.0",
 		"unistore": "^3.0.2"
 	},
